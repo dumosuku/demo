@@ -1,0 +1,105 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #363791;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Register stuff */
+form.register {
+  margin: auto;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 60px;
+}
+
+.form.register label {
+  display: inline-block;
+  width: 150px; /* adjust as necessary */
+  text-align: left;
+}
+
+.form.register input[type="text"], .register-form input[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+
+form.register input {
+  /* your input styles here */
+}
+
+form.register button {
+  /* your button styles here */
+}

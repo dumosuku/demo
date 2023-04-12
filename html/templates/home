@@ -1,0 +1,11 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+</head>
+
+<?php include("nav") ?>
+
+<body>
+    <div class="fade-in">
+        <p> LMAO </p>
+    </div>
+</body>
